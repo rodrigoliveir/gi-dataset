@@ -1,0 +1,9 @@
+{
+    "name": "eula",
+    "vision": "cryo",
+    "weaponType": "claymore",
+    "rarity": "five-stars",
+    "images": {
+        "pfpImage": "~/images/Eula_icon.webp"
+    }
+}
