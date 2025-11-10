@@ -4,6 +4,6 @@
     "weaponType": "claymore",
     "rarity": "five-stars",
     "images": {
-        "pfpImage": ".././images/eula-pfp.webp"
+        "pfpImage": "https://rodrigoliveir.github.io/gi-dataset/data/images/eula-pfp.webp"
     }
 }
