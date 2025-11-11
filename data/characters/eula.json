@@ -1,9 +1,369 @@
 {
-    "name": "eula",
-    "vision": "cryo",
-    "weaponType": "claymore",
-    "rarity": "five-stars",
-    "images": {
-        "pfpImage": "https://rodrigoliveir.github.io/gi-dataset/data/images/eula-pfp.webp"
+  "character_id": "eula",
+  "vision_key": "CRYO",
+  "weapon_type": "CLAYMORE",
+  "name": "Eula",
+  "rarity": 5,
+  "nation": "Mondstadt",
+  "release": "2021-05-18",
+  "constellation": "Aphros Delos",
+  "birthday": "10-25",
+  "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+  "skillTalents": [
+    {
+      "name": "Favonius Bladework - Edel",
+      "description": "Normal Attack\nPerform up to five consecutive strikes.\nCharged Attack\nDrains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack\n Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "label": "1-Hit DMG",
+          "value": "89.7%"
+        },
+        {
+          "label": "2-Hit DMG",
+          "value": "93.6%"
+        },
+        {
+          "label": "3-Hit DMG",
+          "value": "56.8%"
+        },
+        {
+          "label": "4-Hit DMG",
+          "value": "112.6%"
+        },
+        {
+          "label": "5-Hit DMG",
+          "value": "71.8%"
+        },
+        {
+          "label": "Charged Attack Spinning DMG",
+          "value": "68.8%"
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "value": "124%"
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "value": "40/s"
+        },
+        {
+          "label": "Max Duration",
+          "value": "5s"
+        },
+        {
+          "label": "Plunge DMG",
+          "value": "74.6%"
+        },
+        {
+          "label": "Low / High Plunge DMG",
+          "value": "149% / 186%"
+        }
+      ],
+      "type": "NORMAL_ATTACK",
+      "image": ""
+    },
+    {
+      "name": "Icetide Vortex",
+      "description": "Sharp frost, swift blade.\nPress\nSlashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.\nGrimheart\nIncreases Eula's resistance to interruption and DEF.\nHold\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.",
+      "upgrades": [
+        {
+          "label": "Tap DMG",
+          "value": "146.4%"
+        },
+        {
+          "label": "Hold DMG",
+          "value": "245.6%"
+        },
+        {
+          "label": "Icewhirl Brand DMG",
+          "value": "96%"
+        },
+        {
+          "label": "Physical RES Decrease",
+          "value": "16%"
+        },
+        {
+          "label": "Cryo RES Decrease",
+          "value": "16%"
+        },
+        {
+          "label": "Grimheart Duration",
+          "value": "18s"
+        },
+        {
+          "label": "Def Bonus Per Stack",
+          "value": "30%"
+        },
+        {
+          "label": "RES Decrease Duration",
+          "value": "7s"
+        },
+        {
+          "label": "Press CD",
+          "value": "4s"
+        },
+        {
+          "label": "Holding CD",
+          "value": "10s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL",
+      "image": ""
+    },
+    {
+      "name": "Glacial Illumination",
+      "description": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will immediately explode.",
+      "upgrades": [
+        {
+          "label": "Skill DMG",
+          "value": "245.6%"
+        },
+        {
+          "label": "Lighfall Sword Base DMG",
+          "value": "367%"
+        },
+        {
+          "label": "DMG Per Stack",
+          "value": "75%"
+        },
+        {
+          "label": "Maximum Stacks",
+          "value": "30"
+        },
+        {
+          "label": "CD",
+          "value": "20s"
+        },
+        {
+          "label": "Energy Cost",
+          "value": "80"
+        }
+      ],
+      "type": "ELEMENTAL_BURST",
+      "image": ""
     }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Roiling Rime",
+      "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.",
+      "ascension_level": 1,
+      "image": ""
+    },
+    {
+      "name": "Wellspring of War-Lust",
+      "description": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
+      "ascension_level": 4,
+      "image": ""
+    },
+    {
+      "name": "Aristocratic Introspection",
+      "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+      "ascension_level": 0,
+      "image": ""
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Tidal Illusion",
+      "description": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+      "level": 1,
+      "image": ""
+    },
+    {
+      "name": "Lady of Seafoam",
+      "description": "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.",
+      "level": 2,
+      "image": ""
+    },
+    {
+      "name": "Lawrence Pedigree",
+      "description": "Increases the Level of Glacial Illumination Mix by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "image": ""
+    },
+    {
+      "name": "The Obstinacy of One's Inferiors",
+      "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+      "level": 4,
+      "image": ""
+    },
+    {
+      "name": "Chivalric Quality",
+      "description": "Increases the level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "image": ""
+    },
+    {
+      "name": "Noble Obligation",
+      "description": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+      "level": 6,
+      "image": ""
+    }
+  ],
+  "ascension_materials": [
+    [
+      {
+        "name": "Shivada Jade Sliver",
+        "value": 1,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 3,
+        "image": ""
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 3,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 20000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 3,
+        "image": ""
+      },
+      {
+        "name": "Crystalline Bloom",
+        "value": 2,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 10,
+        "image": ""
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 15,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 40000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 6,
+        "image": ""
+      },
+      {
+        "name": "Crystalline Bloom",
+        "value": 4,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 20,
+        "image": ""
+      },
+      {
+        "name": "Stained Mask",
+        "value": 12,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 60000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 3,
+        "image": ""
+      },
+      {
+        "name": "Crystalline Bloom",
+        "value": 8,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 30,
+        "image": ""
+      },
+      {
+        "name": "Stained Mask",
+        "value": 18,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 80000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 6,
+        "image": ""
+      },
+      {
+        "name": "Crystalline Bloom",
+        "value": 12,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 45,
+        "image": ""
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 12,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 100000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Gemstone",
+        "value": 6,
+        "image": ""
+      },
+      {
+        "name": "Crystalline Bloom",
+        "value": 20,
+        "image": ""
+      },
+      {
+        "name": "Dandelion Seed",
+        "value": 60,
+        "image": ""
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 24,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 120000,
+        "image": ""
+      }
+    ]
+  ],
+  "images": {
+    "pfp_image": "https://rodrigoliveir.github.io/gi-dataset/data/images/eula-pfp.webp",
+    "splash_image": "",
+    "sideicon_image": "",
+    "constellation": ""
+  }
 }

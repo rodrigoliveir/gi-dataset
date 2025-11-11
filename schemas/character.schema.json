@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character",
+  "type": "object",
+
+  "$defs": {
+    "upgrade": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "value": { "type": "string" }
+      },
+      "required": ["label", "value"],
+      "minProperties": 2,
+      "additionalProperties": false
+    },
+    "upgrades": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/upgrade" },
+      "minItems": 1
+    },
+    "skillTalent": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "upgrades": { "$ref": "#/$defs/upgrades" },
+        "type": {
+          "type": "string",
+          "enum": ["NORMAL_ATTACK", "ELEMENTAL_SKILL", "ELEMENTAL_BURST"]
+        },
+        "image": { "type": "string", "format": "uri" }
+      },
+      "required": ["name", "description", "upgrades", "type", "image"],
+      "additionalProperties": false
+    },
+    "skillTalents": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/skillTalent" },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "passiveTalent": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "ascension_level": { "type": "integer", "enum": [0, 1, 4] },
+        "image": { "type": "string", "format": "uri" }
+      },
+      "required": ["name", "description", "ascension_level", "image"],
+      "additionalProperties": false
+    },
+    "passiveTalents": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/passiveTalent" },
+      "minItems": 3
+    },
+    "constellation": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "level": { "type": "integer", "enum": [1, 2, 3, 4, 5, 6] },
+        "image": { "type": "string", "format": "uri" }
+      },
+      "required": ["name", "description", "level", "image"],
+      "additionalProperties": false
+    },
+    "constellations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/constellation" },
+      "minItems": 6,
+      "maxItems": 6
+    },
+    "ascension_material": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "value": { "type": "integer" },
+        "image": { "type": "string", "format": "uri" }
+      },
+      "required": ["name", "value", "image"],
+      "additionalProperties": false
+    },
+    "level": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ascension_material" },
+      "minItems": 4,
+      "maxItems": 5
+    },
+    "ascension_materials": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/level" },
+      "minItems": 6,
+      "maxItems": 6
+    }
+  },
+
+  "properties": {
+    "character_id": { "type": "string" },
+    "vision_key": {
+      "type": "string",
+      "enum": ["ANEMO", "CRYO", "DENDRO", "ELECTRO", "GEO", "HYDRO", "PYRO"]
+    },
+    "weapon_type": {
+      "type": "string",
+      "enum": ["BOW", "CATALYST", "CLAYMORE", "POLEARM", "SWORD"]
+    },
+    "name": { "type": "string" },
+    "rarity": { "type": "integer", "enum": [4, 5] },
+    "nation": { "type": "string" },
+    "release": { "type": "string" },
+    "constellation": { "type": "string" },
+    "birthday": { "type": "string" },
+    "description": { "type": "string" },
+    "skillTalents": { "$ref": "#/$defs/skillTalents" },
+    "passiveTalents": { "$ref": "#/$defs/passiveTalents" },
+    "constellations": { "$ref": "#/$defs/constellations" },
+    "ascension_materials": { "$ref": "#/$defs/ascension_materials" },
+    "images": {
+      "type": "object",
+      "properties": {
+        "pfp_image": { "type": "string", "format": "uri" },
+        "splash_image": { "type": "string", "format": "uri" },
+        "sideicon_image": { "type": "string", "format": "uri" },
+        "constellation": { "type": "string", "format": "uri" }
+      }
+    }
+  },
+  "required": [
+    "character_id",
+    "vision_key",
+    "weapon_type",
+    "name",
+    "rarity",
+    "nation",
+    "release",
+    "constellation",
+    "birthday",
+    "description",
+    "skillTalents",
+    "passiveTalents",
+    "constellations",
+    "images"
+  ],
+  "additionalProperties": false
+}

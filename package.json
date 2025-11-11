@@ -1,0 +1,47 @@
+{
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-cli": "^5.0.0",
+    "ajv-formats": "^3.0.1",
+    "prettier": "^3.6.2"
+  },
+  "name": "gi-dataset",
+  "version": "1.0.0",
+  "description": "Repositório de dados sobre o jogo Genshin Impact mantido por fã(s).",
+  "main": "index.js",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.12",
+    "concat-map": "^0.0.1",
+    "esprima": "^4.0.1",
+    "fast-deep-equal": "^3.1.3",
+    "fast-json-patch": "^2.2.1",
+    "fast-uri": "^3.1.0",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "js-yaml": "^3.14.1",
+    "json-schema-migrate": "^2.0.0",
+    "json-schema-traverse": "^1.0.0",
+    "json5": "^2.2.3",
+    "minimatch": "^3.1.2",
+    "minimist": "^1.2.8",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "require-from-string": "^2.0.2",
+    "sprintf-js": "^1.0.3",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "validate:characters": "node validate-characters.js",
+    "validate": "npm run validate:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
