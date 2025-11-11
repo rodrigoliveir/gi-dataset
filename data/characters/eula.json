@@ -60,7 +60,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/normal-attack.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/normal-attack.webp"
     },
     {
       "name": "Icetide Vortex",
@@ -108,7 +108,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/elemental-skill.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-skill.webp"
     },
     {
       "name": "Glacial Illumination",
@@ -140,7 +140,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/elemental-burst.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-burst.webp"
     }
   ],
   "passiveTalents": [
@@ -148,19 +148,19 @@
       "name": "Roiling Rime",
       "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.",
       "ascension_level": 1,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/passive-1.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-1.webp"
     },
     {
       "name": "Wellspring of War-Lust",
       "description": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
       "ascension_level": 4,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/passive-2.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-2.webp"
     },
     {
       "name": "Aristocratic Introspection",
       "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
       "ascension_level": 0,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/passive-3.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-3.webp"
     }
   ],
   "constellations": [
@@ -168,37 +168,37 @@
       "name": "Tidal Illusion",
       "description": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
       "level": 1,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-1.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-1.webp"
     },
     {
       "name": "Lady of Seafoam",
       "description": "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.",
       "level": 2,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-2.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-2.webp"
     },
     {
       "name": "Lawrence Pedigree",
       "description": "Increases the Level of Glacial Illumination Mix by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-3.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-3.webp"
     },
     {
       "name": "The Obstinacy of One's Inferiors",
       "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
       "level": 4,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-4.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-4.webp"
     },
     {
       "name": "Chivalric Quality",
       "description": "Increases the level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-5.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-5.webp"
     },
     {
       "name": "Noble Obligation",
       "description": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
       "level": 6,
-      "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/constellation-6.webp"
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-6.webp"
     }
   ],
   "ascension_materials": [
@@ -206,164 +206,164 @@
       {
         "name": "Shivada Jade Sliver",
         "value": 1,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-sliver.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-sliver.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 3,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Damaged Mask",
         "value": 3,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/damaged-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/damaged-mask.webp"
       },
       {
         "name": "Mora",
         "value": 20000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ],
     [
       {
         "name": "Shivada Jade Fragment",
         "value": 3,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-fragment.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-fragment.webp"
       },
       {
         "name": "Crystalline Bloom",
         "value": 2,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/crystalline-bloom.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/crystalline-bloom.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 10,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Damaged Mask",
         "value": 15,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/damaged-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/damaged-mask.webp"
       },
       {
         "name": "Mora",
         "value": 40000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ],
     [
       {
         "name": "Shivada Jade Fragment",
         "value": 6,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-fragment.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-fragment.webp"
       },
       {
         "name": "Crystalline Bloom",
         "value": 4,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/crystalline-bloom.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/crystalline-bloom.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 20,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Stained Mask",
         "value": 12,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/stained-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/stained-mask.webp"
       },
       {
         "name": "Mora",
         "value": 60000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ],
     [
       {
         "name": "Shivada Jade Chunk",
         "value": 3,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-chunk.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-chunk.webp"
       },
       {
         "name": "Crystalline Bloom",
         "value": 8,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/crystalline-bloom.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/crystalline-bloom.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 30,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Stained Mask",
         "value": 18,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/stained-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/stained-mask.webp"
       },
       {
         "name": "Mora",
         "value": 80000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ],
     [
       {
         "name": "Shivada Jade Chunk",
         "value": 6,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-chunk.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-chunk.webp"
       },
       {
         "name": "Crystalline Bloom",
         "value": 12,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/crystalline-bloom.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/crystalline-bloom.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 45,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Ominous Mask",
         "value": 12,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/ominous-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ominous-mask.webp"
       },
       {
         "name": "Mora",
         "value": 100000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ],
     [
       {
         "name": "Shivada Jade Gemstone",
         "value": 6,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/shivada-jade/shivada-jade-gemstone.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/shivada-jade/shivada-jade-gemstone.webp"
       },
       {
         "name": "Crystalline Bloom",
         "value": 20,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/crystalline-bloom.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/crystalline-bloom.webp"
       },
       {
         "name": "Dandelion Seed",
         "value": 60,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/dandelion-seed.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/dandelion-seed.webp"
       },
       {
         "name": "Ominous Mask",
         "value": 24,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/ominous-mask.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ominous-mask.webp"
       },
       {
         "name": "Mora",
         "value": 120000,
-        "image": "https://rodrigoliveir.github.io/gi-dataset/data/images/items/mora.webp"
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/mora.webp"
       }
     ]
   ],
   "images": {
-    "pfp_image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/eula-pfp.webp",
-    "splash_image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/eula-splash.webp",
-    "sideicon_image": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/eula-side-icon.webp",
-    "constellation": "https://rodrigoliveir.github.io/gi-dataset/data/images/characters/eula/eula-constellation.webp"
+    "pfp_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-pfp.webp",
+    "splash_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-splash.webp",
+    "sideicon_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-side-icon.webp",
+    "constellation": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-constellation.webp"
   }
 }
