@@ -20,6 +20,8 @@
     "fast-uri": "^3.1.0",
     "fs.realpath": "^1.0.0",
     "glob": "^7.2.3",
+    "imagemin": "^9.0.1",
+    "imagemin-webp": "^8.0.0",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
     "js-yaml": "^3.14.1",
@@ -37,6 +39,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,json,md}'",
+    "convert:webp": "node convert-png-to-webp.js",
     "validate:characters": "node validate-characters.js",
     "validate": "npm run validate:all"
   },
