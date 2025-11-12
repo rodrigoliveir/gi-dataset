@@ -1,0 +1,219 @@
+{
+  "weapon_id": "song-of-broken-pines",
+  "weapon_type": "CLAYMORE",
+  "substatus": "PHYSICAL_DAMAGE_BONUS",
+  "name": "Song of Broken Pines",
+  "rarity": 5,
+  "description": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+  "passive": {
+    "title": "Rebel's Banner-Hymn",
+    "content": "A part of the Millennial Movement that wanders amidst the winds.\nIncreases ATK by 16%/20%/24%/28%/32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s.\nWhen you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the Millennial Movement: Banner-Hymn effect for 12s.\nMillennial Movement: Banner-Hymn increases Normal ATK SPD by 12%/15%/18%/21%/24% and increases ATK by 20%/25%/30%/35%/40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s.\nOf the many effects of the Millennial Movement, buffs of the same type will not stack."
+  },
+  "upgrades": [
+    {
+      "base_atk": {
+        "minimum": 49,
+        "maximum": 145
+      },
+      "substatus": {
+        "minimum": "4.5%",
+        "maximum": "8%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 176,
+        "maximum": 286
+      },
+      "substatus": {
+        "minimum": "8%",
+        "maximum": "11.6%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 317,
+        "maximum": 374
+      },
+      "substatus": {
+        "minimum": "11.6%",
+        "maximum": "13.4%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 406,
+        "maximum": 464
+      },
+      "substatus": {
+        "minimum": "13.4%",
+        "maximum": "15.2%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 495,
+        "maximum": 555
+      },
+      "substatus": {
+        "minimum": "15.2%",
+        "maximum": "17%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 586,
+        "maximum": 648
+      },
+      "substatus": {
+        "minimum": "17%",
+        "maximum": "18.9%"
+      }
+    },
+    {
+      "base_atk": {
+        "minimum": 679,
+        "maximum": 741
+      },
+      "substatus": {
+        "minimum": "18.9%",
+        "maximum": "20.7%"
+      }
+    }
+  ],
+  "ascension_materials": [
+    [
+      {
+        "name": "Tile of Decarabian's Tower",
+        "value": 5,
+        "image": ""
+      },
+      {
+        "name": "Heavy Horn",
+        "value": 5,
+        "image": ""
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 3,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 10000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Debris of Decarabian's City",
+        "value": 5,
+        "image": ""
+      },
+      {
+        "name": "Heavy Horn",
+        "value": 18,
+        "image": ""
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 12,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 20000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Debris of Decarabian's City",
+        "value": 9,
+        "image": ""
+      },
+      {
+        "name": "Black Bronze Horne",
+        "value": 9,
+        "image": ""
+      },
+      {
+        "name": "Stained Mask",
+        "value": 9,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 30000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Fragment of Decarabian's Epic",
+        "value": 5,
+        "image": ""
+      },
+      {
+        "name": "Black Bronze Horn",
+        "value": 18,
+        "image": ""
+      },
+      {
+        "name": "Stained Mask",
+        "value": 14,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 45000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Fragment of Decarabian's Epic",
+        "value": 9,
+        "image": ""
+      },
+      {
+        "name": "Black Crystal Horn",
+        "value": 14,
+        "image": ""
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 9,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 55000,
+        "image": ""
+      }
+    ],
+    [
+      {
+        "name": "Scattered Piece of Decarabian's Dream",
+        "value": 6,
+        "image": ""
+      },
+      {
+        "name": "Black Crystal Horn",
+        "value": 27,
+        "image": ""
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 18,
+        "image": ""
+      },
+      {
+        "name": "Mora",
+        "value": 65000,
+        "image": ""
+      }
+    ]
+  ],
+  "image": ""
+}

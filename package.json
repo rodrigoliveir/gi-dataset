@@ -41,6 +41,7 @@
     "format": "prettier --write '**/*.{js,json,md}'",
     "convert:webp": "node convert-png-to-webp.js",
     "validate:characters": "node validate-characters.js",
+    "validate:weapons": "node validate-weapons.js",
     "validate": "npm run validate:all"
   },
   "keywords": [],
