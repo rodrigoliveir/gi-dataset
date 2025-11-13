@@ -28,7 +28,7 @@
         "base_atk": { "$ref": "#/$defs/base_atk" },
         "substatus": { "$ref": "#/$defs/substatus" }
       },
-      "required": ["base_atk", "substatus"],
+      "required": ["base_atk"],
       "additionalProperties": false
     },
     "upgrades": {
@@ -56,7 +56,7 @@
     "ascension_materials": {
       "type": "array",
       "items": { "$ref": "#/$defs/level" },
-      "minItems": 6,
+      "minItems": 4,
       "maxItems": 6
     }
   },
@@ -72,17 +72,29 @@
       "enum": ["ATK%", "DEF%", "HP%", "CD%", "CR%", "ELEMENTAL_MASTERY", "PHYSICAL_DAMAGE_BONUS"]
     },
     "name": { "type": "string" },
-    "rarity": { "type": "integer", "enum": [4, 5] },
+    "rarity": { "type": "integer", "enum": [1, 2, 3, 4, 5] },
     "description": { "type": "string" },
     "passive": {
       "type": "object",
       "properties": {
         "title": { "type": "string" },
         "content": { "type": "string" }
-      }
+      },
+      "required": ["title", "content"],
+      "additionalProperties": false
     },
     "upgrades": { "$ref": "#/$defs/upgrades" },
     "ascension_materials": { "$ref": "#/$defs/ascension_materials" },
     "image": { "type": "string", "format": "uri" }
-  }
+  },
+  "required": [
+    "weapon_id",
+    "weapon_type",
+    "name",
+    "rarity",
+    "description",
+    "upgrades",
+    "ascension_materials",
+    "image"
+  ]
 }

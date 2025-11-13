@@ -86,134 +86,134 @@
       {
         "name": "Tile of Decarabian's Tower",
         "value": 5,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/tile-of-decarabians-tower.webp"
       },
       {
         "name": "Heavy Horn",
         "value": 5,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/heavy-horn.webp"
       },
       {
         "name": "Damaged Mask",
         "value": 3,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
       },
       {
         "name": "Mora",
         "value": 10000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ],
     [
       {
         "name": "Debris of Decarabian's City",
         "value": 5,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/debris-of-decarabians-city.webp"
       },
       {
         "name": "Heavy Horn",
         "value": 18,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/heavy-horn.webp"
       },
       {
         "name": "Damaged Mask",
         "value": 12,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
       },
       {
         "name": "Mora",
         "value": 20000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ],
     [
       {
         "name": "Debris of Decarabian's City",
         "value": 9,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/debris-of-decarabians-city.webp"
       },
       {
         "name": "Black Bronze Horne",
         "value": 9,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-bronze-horn.webp"
       },
       {
         "name": "Stained Mask",
         "value": 9,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
       },
       {
         "name": "Mora",
         "value": 30000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ],
     [
       {
         "name": "Fragment of Decarabian's Epic",
         "value": 5,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/fragment-of-decarabians-epic.webp"
       },
       {
         "name": "Black Bronze Horn",
         "value": 18,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-bronze-horn.webp"
       },
       {
         "name": "Stained Mask",
         "value": 14,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
       },
       {
         "name": "Mora",
         "value": 45000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ],
     [
       {
         "name": "Fragment of Decarabian's Epic",
         "value": 9,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/fragment-of-decarabians-epic.webp"
       },
       {
         "name": "Black Crystal Horn",
         "value": 14,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-crystal-horn.webp"
       },
       {
         "name": "Ominous Mask",
         "value": 9,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
       },
       {
         "name": "Mora",
         "value": 55000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ],
     [
       {
         "name": "Scattered Piece of Decarabian's Dream",
         "value": 6,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/scattered-piece-of-decarabians-dream.webp"
       },
       {
         "name": "Black Crystal Horn",
         "value": 27,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-crystal-horn.webp"
       },
       {
         "name": "Ominous Mask",
         "value": 18,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
       },
       {
         "name": "Mora",
         "value": 65000,
-        "image": ""
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
       }
     ]
   ],
-  "image": ""
+  "image": "https://rodrigoliveir.github.io/gi-dataset/images/weapons/claymore/song-of-broken-pines.webp"
 }
