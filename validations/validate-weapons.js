@@ -1,4 +1,5 @@
 import Ajv from "ajv";
+import { formatAjvErrors } from "./helpers/format-ajv-errors.js";
 import addFormats from "ajv-formats";
 import { readFileSync, readdirSync } from "fs";
 import path from "path";
@@ -24,10 +25,10 @@ for (const file of enFiles) {
   const valid = validate(data);
 
   if (valid) {
-    console.log(`✅ ${enDir}/${file} is valid`);
+    console.log(`en/${file} \x1b[32m✔\x1b[0m`);
   } else {
-    console.log(`❌ ${enDir}/${file} is invalid`);
-    console.log(ajv.errorsText(validate.errors, { separator: "\n" }));
+    console.log(`en/${file} \x1b[31m✖\x1b[0m`);
+    console.error(formatAjvErrors(validate.errors));
   }
 }
 
@@ -36,9 +37,9 @@ for (const file of ptFiles) {
   const valid = validate(data);
 
   if (valid) {
-    console.log(`✅ ${ptDir}/${file} is valid`);
+    console.log(`pt/${file} \x1b[32m✔\x1b[0m`);
   } else {
-    console.log(`❌ ${ptDir}/${file} is invalid`);
-    console.log(ajv.errorsText(validate.errors, { separator: "\n" }));
+    console.log(`pt/${file} \x1b[31m✖\x1b[0m`);
+    console.error(formatAjvErrors(validate.errors));
   }
 }

@@ -1,4 +1,5 @@
 import Ajv from "ajv";
+import { formatAjvErrors } from "./helpers/format-ajv-errors.js";
 import addFormats from "ajv-formats";
 import { readFileSync, readdirSync } from "fs";
 import path from "path";
@@ -10,8 +11,8 @@ const schema = JSON.parse(readFileSync("schemas/character.schema.json", "utf8"))
 const validate = ajv.compile(schema);
 
 const enDir = "data/en/characters";
-const ptDir = "data/pt/characters";
 const enFiles = readdirSync(enDir).filter((f) => f.endsWith(".json"));
+const ptDir = "data/pt/characters";
 const ptFiles = readdirSync(ptDir).filter((f) => f.endsWith(".json"));
 
 for (const file of enFiles) {
@@ -19,10 +20,10 @@ for (const file of enFiles) {
   const valid = validate(data);
 
   if (valid) {
-    console.log(`✅ ${enDir}/${file} is valid`);
+    console.log(`en/${file} \x1b[32m✔\x1b[0m`);
   } else {
-    console.log(`❌ ${enDir}/${file} is invalid`);
-    console.log(ajv.errorsText(validate.errors, { separator: "\n" }));
+    console.log(`en/${file} \x1b[31m✖\x1b[0m`);
+    console.error(formatAjvErrors(validate.errors));
   }
 }
 
@@ -31,9 +32,9 @@ for (const file of ptFiles) {
   const valid = validate(data);
 
   if (valid) {
-    console.log(`✅ ${ptDir}/${file} is valid`);
+    console.log(`pt/${file} \x1b[32m✔\x1b[0m`);
   } else {
-    console.log(`❌ ${ptDir}/${file} is invalid`);
-    console.log(ajv.errorsText(validate.errors, { separator: "\n" }));
+    console.log(`pt/${file} \x1b[31m✖\x1b[0m`);
+    console.error(formatAjvErrors(validate.errors));
   }
 }
