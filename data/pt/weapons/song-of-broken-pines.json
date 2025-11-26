@@ -2,12 +2,12 @@
   "weapon_id": "song-of-broken-pines",
   "weapon_type": "CLAYMORE",
   "substatus": "PHYSICAL_DAMAGE_BONUS",
-  "name": "Song of Broken Pines",
+  "name": "Canção dos Pinhos",
   "rarity": 5,
-  "description": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+  "description": "Uma espada tão leve quanto o suspiro de grama na brisa, mas tão impiedosa para os corruptos quanto um tufão.",
   "passive": {
-    "title": "Rebel's Banner-Hymn",
-    "content": "A part of the Millennial Movement that wanders amidst the winds.\nIncreases ATK by 16%/20%/24%/28%/32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s.\nWhen you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the Millennial Movement: Banner-Hymn effect for 12s.\nMillennial Movement: Banner-Hymn increases Normal ATK SPD by 12%/15%/18%/21%/24% and increases ATK by 20%/25%/30%/35%/40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s.\nOf the many effects of the Millennial Movement, buffs of the same type will not stack."
+    "title": "Música de Rebelião da Bandeira",
+    "content": "Uma parte do Concerto Milenar que flutua no vento.\nAumenta o ATQ em 16%/20%/24%/28%/32%. Quando Ataque Normal ou Ataque Carregado atingir os inimigos, o personagem obterá um Símbolo dos Sussurros, que pode ser ativado uma vez a cada 0.3s.\nQuando possuir quatro Símbolos dos Sussurros, todos eles serão consumidos e todo personagem próximo obterá o efeito Concerto Milenar: Música do Levantar da Bandeira por 12s.\nConcerto Milenar: Música do Levantar da Bandeira aumenta a Vel. de Ataque Normal em 12%/15%/18%/21%/24% além disso o ATQ será aumentado em 20%/25%/30%/35%/40%. Dentro de 20s depois da ativação, não é possível obter os Símbolos dos Sussurros de novo..\nEntre todos os efeitos de vários valores, os efeitos do mesmo valor não podem ser acumulados."
   },
   "upgrades": [
     {
@@ -84,17 +84,17 @@
   "ascension_materials": [
     [
       {
-        "name": "Tile of Decarabian's Tower",
+        "name": "Fragmento de Azulejo de Decarabian",
         "value": 5,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/tile-of-decarabians-tower.webp"
       },
       {
-        "name": "Heavy Horn",
+        "name": "Chifre Pesado",
         "value": 5,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/heavy-horn.webp"
       },
       {
-        "name": "Damaged Mask",
+        "name": "Máscara Danificada",
         "value": 3,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
       },
@@ -106,17 +106,17 @@
     ],
     [
       {
-        "name": "Debris of Decarabian's City",
+        "name": "Detritos da Cidade de Decarabian",
         "value": 5,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/debris-of-decarabians-city.webp"
       },
       {
-        "name": "Heavy Horn",
+        "name": "Chifre Pesado",
         "value": 18,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/heavy-horn.webp"
       },
       {
-        "name": "Damaged Mask",
+        "name": "Máscara Danificada",
         "value": 12,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
       },
@@ -128,17 +128,17 @@
     ],
     [
       {
-        "name": "Debris of Decarabian's City",
+        "name": "Detritos da Cidade de Decarabian",
         "value": 9,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/debris-of-decarabians-city.webp"
       },
       {
-        "name": "Black Bronze Horne",
+        "name": "Chifre de Bronze Negro",
         "value": 9,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-bronze-horn.webp"
       },
       {
-        "name": "Stained Mask",
+        "name": "Máscara Suja",
         "value": 9,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
       },
@@ -150,17 +150,17 @@
     ],
     [
       {
-        "name": "Fragment of Decarabian's Epic",
+        "name": "Fragmentos Épicos da Decarabian",
         "value": 5,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/fragment-of-decarabians-epic.webp"
       },
       {
-        "name": "Black Bronze Horn",
+        "name": "Chifre de Bronze Negro",
         "value": 18,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-bronze-horn.webp"
       },
       {
-        "name": "Stained Mask",
+        "name": "Máscara Suja",
         "value": 14,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
       },
@@ -172,17 +172,17 @@
     ],
     [
       {
-        "name": "Fragment of Decarabian's Epic",
+        "name": "Fragmentos Épicos da Decarabian",
         "value": 9,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/fragment-of-decarabians-epic.webp"
       },
       {
-        "name": "Black Crystal Horn",
+        "name": "Chifre de Cristal Preto",
         "value": 14,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-crystal-horn.webp"
       },
       {
-        "name": "Ominous Mask",
+        "name": "Máscara Ominosa",
         "value": 9,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
       },
@@ -194,17 +194,17 @@
     ],
     [
       {
-        "name": "Scattered Piece of Decarabian's Dream",
+        "name": "Pedaços de Sonho da Decarabian",
         "value": 6,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/scattered-piece-of-decarabians-dream.webp"
       },
       {
-        "name": "Black Crystal Horn",
+        "name": "Chifre de Cristal Preto",
         "value": 27,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-crystal-horn.webp"
       },
       {
-        "name": "Ominous Mask",
+        "name": "Máscara Ominosa",
         "value": 18,
         "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
       },

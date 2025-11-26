@@ -15,48 +15,212 @@
       "description": "Normal Attack\nPerform up to five consecutive strikes.\nCharged Attack\nDrains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack\n Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [
         {
-          "label": "1-Hit DMG",
-          "value": "89.7%"
+          "level": 1,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "89.7%" },
+            { "label": "2-Hit DMG", "value": "93.6%" },
+            { "label": "3-Hit DMG", "value": "56.8% + 56.8%" },
+            { "label": "4-Hit DMG", "value": "112.6%" },
+            { "label": "5-Hit DMG", "value": "71.8% + 71.8%" },
+            { "label": "Charged Attack Spinning DMG", "value": "68.8%" },
+            { "label": "Charged Attack Final DMG", "value": "124%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "74.6%" },
+            { "label": "Low / High Plunge DMG", "value": "149% / 186%" }
+          ]
         },
         {
-          "label": "2-Hit DMG",
-          "value": "93.6%"
+          "level": 2,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "97%" },
+            { "label": "2-Hit DMG", "value": "101.2%" },
+            { "label": "3-Hit DMG", "value": "61.4% + 61.4%" },
+            { "label": "4-Hit DMG", "value": "121.8%" },
+            { "label": "5-Hit DMG", "value": "77.7% + 77.7%" },
+            { "label": "Charged Attack Spinning DMG", "value": "74.4%" },
+            { "label": "Charged Attack Final DMG", "value": "135%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "80.7%" },
+            { "label": "Low / High Plunge DMG", "value": "161% / 201%" }
+          ]
         },
         {
-          "label": "3-Hit DMG",
-          "value": "56.8%"
+          "level": 3,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "104.3%" },
+            { "label": "2-Hit DMG", "value": "108.8%" },
+            { "label": "3-Hit DMG", "value": "66% + 66%" },
+            { "label": "4-Hit DMG", "value": "131%" },
+            { "label": "5-Hit DMG", "value": "83.5% + 83.5%" },
+            { "label": "Charged Attack Spinning DMG", "value": "80%" },
+            { "label": "Charged Attack Final DMG", "value": "145%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "86.7%" },
+            { "label": "Low / High Plunge DMG", "value": "173% / 217%" }
+          ]
         },
         {
-          "label": "4-Hit DMG",
-          "value": "112.6%"
+          "level": 4,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "114.8%" },
+            { "label": "2-Hit DMG", "value": "119.7%" },
+            { "label": "3-Hit DMG", "value": "72.6% + 72.6%" },
+            { "label": "4-Hit DMG", "value": "144.1%" },
+            { "label": "5-Hit DMG", "value": "91.9% + 91.9%" },
+            { "label": "Charged Attack Spinning DMG", "value": "88%" },
+            { "label": "Charged Attack Final DMG", "value": "159%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "95.4%" },
+            { "label": "Low / High Plunge DMG", "value": "191% / 238%" }
+          ]
         },
         {
-          "label": "5-Hit DMG",
-          "value": "71.8%"
+          "level": 5,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "122.1%" },
+            { "label": "2-Hit DMG", "value": "127.3%" },
+            { "label": "3-Hit DMG", "value": "77.3% + 77.3%" },
+            { "label": "4-Hit DMG", "value": "153.2%" },
+            { "label": "5-Hit DMG", "value": "97.7% + 97.7%" },
+            { "label": "Charged Attack Spinning DMG", "value": "93.6%" },
+            { "label": "Charged Attack Final DMG", "value": "169%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "101.5%" },
+            { "label": "Low / High Plunge DMG", "value": "203% / 253%" }
+          ]
         },
         {
-          "label": "Charged Attack Spinning DMG",
-          "value": "68.8%"
+          "level": 6,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "130.4%" },
+            { "label": "2-Hit DMG", "value": "136%" },
+            { "label": "3-Hit DMG", "value": "82.6% + 82.6%" },
+            { "label": "4-Hit DMG", "value": "163.7%" },
+            { "label": "5-Hit DMG", "value": "104.4% + 104.4%" },
+            { "label": "Charged Attack Spinning DMG", "value": "100%" },
+            { "label": "Charged Attack Final DMG", "value": "181%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "108.4%" },
+            { "label": "Low / High Plunge DMG", "value": "217% / 271%" }
+          ]
         },
         {
-          "label": "Charged Attack Final DMG",
-          "value": "124%"
+          "level": 7,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "141.9%" },
+            { "label": "2-Hit DMG", "value": "147.9%" },
+            { "label": "3-Hit DMG", "value": "89.8% + 89.8%" },
+            { "label": "4-Hit DMG", "value": "176.7%" },
+            { "label": "5-Hit DMG", "value": "113.6% + 113.6%" },
+            { "label": "Charged Attack Spinning DMG", "value": "108.8%" },
+            { "label": "Charged Attack Final DMG", "value": "197%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "118%" },
+            { "label": "Low / High Plunge DMG", "value": "236% / 295%" }
+          ]
         },
         {
-          "label": "Charged Attack Stamina Cost",
-          "value": "40/s"
+          "level": 8,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "153.4%" },
+            { "label": "2-Hit DMG", "value": "159.9%" },
+            { "label": "3-Hit DMG", "value": "97.1% + 97.1%" },
+            { "label": "4-Hit DMG", "value": "192.5%" },
+            { "label": "5-Hit DMG", "value": "122.8% + 122.8%" },
+            { "label": "Charged Attack Spinning DMG", "value": "117.6%" },
+            { "label": "Charged Attack Final DMG", "value": "213%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "127.5%" },
+            { "label": "Low / High Plunge DMG", "value": "255% / 318%" }
+          ]
         },
         {
-          "label": "Max Duration",
-          "value": "5s"
+          "level": 9,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "164.9%" },
+            { "label": "2-Hit DMG", "value": "171.9%" },
+            { "label": "3-Hit DMG", "value": "104.4% + 104.4%" },
+            { "label": "4-Hit DMG", "value": "206.9%" },
+            { "label": "5-Hit DMG", "value": "132% + 132%" },
+            { "label": "Charged Attack Spinning DMG", "value": "126.4%" },
+            { "label": "Charged Attack Final DMG", "value": "229%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "137%" },
+            { "label": "Low / High Plunge DMG", "value": "274% / 342%" }
+          ]
         },
         {
-          "label": "Plunge DMG",
-          "value": "74.6%"
+          "level": 10,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "177.4%" },
+            { "label": "2-Hit DMG", "value": "184.9%" },
+            { "label": "3-Hit DMG", "value": "112.3% + 112.3%" },
+            { "label": "4-Hit DMG", "value": "222.7%" },
+            { "label": "5-Hit DMG", "value": "142% + 142%" },
+            { "label": "Charged Attack Spinning DMG", "value": "136%" },
+            { "label": "Charged Attack Final DMG", "value": "246%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "147.4%" },
+            { "label": "Low / High Plunge DMG", "value": "295% / 368%" }
+          ]
         },
         {
-          "label": "Low / High Plunge DMG",
-          "value": "149% / 186%"
+          "level": 11,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "191.7%" },
+            { "label": "2-Hit DMG", "value": "199.9%" },
+            { "label": "3-Hit DMG", "value": "121.4% + 121.4%" },
+            { "label": "4-Hit DMG", "value": "240.7%" },
+            { "label": "5-Hit DMG", "value": "153.5% + 153.5%" },
+            { "label": "Charged Attack Spinning DMG", "value": "147%" },
+            { "label": "Charged Attack Final DMG", "value": "266%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "159.4%" },
+            { "label": "Low / High Plunge DMG", "value": "319% / 398%" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "208.6%" },
+            { "label": "2-Hit DMG", "value": "217.5%" },
+            { "label": "3-Hit DMG", "value": "132% + 132%" },
+            { "label": "4-Hit DMG", "value": "261.9%" },
+            { "label": "5-Hit DMG", "value": "167% + 167%" },
+            { "label": "Charged Attack Spinning DMG", "value": "159.8%" },
+            { "label": "Charged Attack Final DMG", "value": "289%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "173.4%" },
+            { "label": "Low / High Plunge DMG", "value": "347% / 433%" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "1-Hit DMG", "value": "225.5%" },
+            { "label": "2-Hit DMG", "value": "235.1%" },
+            { "label": "3-Hit DMG", "value": "142.7% + 142.7%" },
+            { "label": "4-Hit DMG", "value": "283%" },
+            { "label": "5-Hit DMG", "value": "180.5% + 180.5%" },
+            { "label": "Charged Attack Spinning DMG", "value": "172.9%" },
+            { "label": "Charged Attack Final DMG", "value": "313%" },
+            { "label": "Charged Attack Stamina Cost", "value": "40/s" },
+            { "label": "Max Duration", "value": "5s" },
+            { "label": "Plunge DMG", "value": "187.4%" },
+            { "label": "Low / High Plunge DMG", "value": "375% / 468%" }
+          ]
         }
       ],
       "type": "NORMAL_ATTACK",
@@ -67,44 +231,199 @@
       "description": "Sharp frost, swift blade.\nPress\nSlashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.\nGrimheart\nIncreases Eula's resistance to interruption and DEF.\nHold\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.",
       "upgrades": [
         {
-          "label": "Tap DMG",
-          "value": "146.4%"
+          "level": 1,
+          "skills": [
+            { "label": "Tap DMG", "value": "146%" },
+            { "label": "Hold DMG", "value": "246%" },
+            { "label": "Icewhirl Brand DMG", "value": "96%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "16%" },
+            { "label": "Cryo RES Decrease", "value": "16%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Hold DMG",
-          "value": "245.6%"
+          "level": 2,
+          "skills": [
+            { "label": "Tap DMG", "value": "157%" },
+            { "label": "Hold DMG", "value": "264%" },
+            { "label": "Icewhirl Brand DMG", "value": "103%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "17%" },
+            { "label": "Cryo RES Decrease", "value": "17%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Icewhirl Brand DMG",
-          "value": "96%"
+          "level": 3,
+          "skills": [
+            { "label": "Tap DMG", "value": "168%" },
+            { "label": "Hold DMG", "value": "282%" },
+            { "label": "Icewhirl Brand DMG", "value": "110%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "18%" },
+            { "label": "Cryo RES Decrease", "value": "18%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Physical RES Decrease",
-          "value": "16%"
+          "level": 4,
+          "skills": [
+            { "label": "Tap DMG", "value": "183%" },
+            { "label": "Hold DMG", "value": "307%" },
+            { "label": "Icewhirl Brand DMG", "value": "120%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "19%" },
+            { "label": "Cryo RES Decrease", "value": "19%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Cryo RES Decrease",
-          "value": "16%"
+          "level": 5,
+          "skills": [
+            { "label": "Tap DMG", "value": "194%" },
+            { "label": "Hold DMG", "value": "325%" },
+            { "label": "Icewhirl Brand DMG", "value": "127%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "20%" },
+            { "label": "Cryo RES Decrease", "value": "20%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Grimheart Duration",
-          "value": "18s"
+          "level": 6,
+          "skills": [
+            { "label": "Tap DMG", "value": "205%" },
+            { "label": "Hold DMG", "value": "344%" },
+            { "label": "Icewhirl Brand DMG", "value": "134%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "21%" },
+            { "label": "Cryo RES Decrease", "value": "21%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Def Bonus Per Stack",
-          "value": "30%"
+          "level": 7,
+          "skills": [
+            { "label": "Tap DMG", "value": "220%" },
+            { "label": "Hold DMG", "value": "368%" },
+            { "label": "Icewhirl Brand DMG", "value": "143%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "22%" },
+            { "label": "Cryo RES Decrease", "value": "22%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "RES Decrease Duration",
-          "value": "7s"
+          "level": 8,
+          "skills": [
+            { "label": "Tap DMG", "value": "234%" },
+            { "label": "Hold DMG", "value": "393%" },
+            { "label": "Icewhirl Brand DMG", "value": "154%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "23%" },
+            { "label": "Cryo RES Decrease", "value": "23%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Press CD",
-          "value": "4s"
+          "level": 9,
+          "skills": [
+            { "label": "Tap DMG", "value": "249%" },
+            { "label": "Hold DMG", "value": "418%" },
+            { "label": "Icewhirl Brand DMG", "value": "163%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "24%" },
+            { "label": "Cryo RES Decrease", "value": "24%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         },
         {
-          "label": "Holding CD",
-          "value": "10s"
+          "level": 10,
+          "skills": [
+            { "label": "Tap DMG", "value": "264%" },
+            { "label": "Hold DMG", "value": "442%" },
+            { "label": "Icewhirl Brand DMG", "value": "173%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "25%" },
+            { "label": "Cryo RES Decrease", "value": "25%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
+        },
+        {
+          "level": 11,
+          "skills": [
+            { "label": "Tap DMG", "value": "278%" },
+            { "label": "Hold DMG", "value": "467%" },
+            { "label": "Icewhirl Brand DMG", "value": "182%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "25%" },
+            { "label": "Cryo RES Decrease", "value": "25%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "Tap DMG", "value": "293%" },
+            { "label": "Hold DMG", "value": "491%" },
+            { "label": "Icewhirl Brand DMG", "value": "192%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "25%" },
+            { "label": "Cryo RES Decrease", "value": "25%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "Tap DMG", "value": "311%" },
+            { "label": "Hold DMG", "value": "522%" },
+            { "label": "Icewhirl Brand DMG", "value": "204%" },
+            { "label": "DEF Bonus", "value": "30% Per Stack" },
+            { "label": "Grimheart Duration", "value": "18s" },
+            { "label": "Physical RES Decrease", "value": "25%" },
+            { "label": "Cryo RES Decrease", "value": "25%" },
+            { "label": "RES Decrease Duration", "value": "7s" },
+            { "label": "Press CD", "value": "4s" },
+            { "label": "Hold CD", "value": "10s" }
+          ]
         }
       ],
       "type": "ELEMENTAL_SKILL",
@@ -115,28 +434,147 @@
       "description": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will immediately explode.",
       "upgrades": [
         {
-          "label": "Skill DMG",
-          "value": "245.6%"
+          "level": 1,
+          "skills": [
+            { "label": "Skill DMG", "value": "246%" },
+            { "label": "Lightfall Sword Base DMG", "value": "367%" },
+            { "label": "DMG Per Stack", "value": "75%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         },
         {
-          "label": "Lighfall Sword Base DMG",
-          "value": "367%"
+          "level": 2,
+          "skills": [
+            { "label": "Skill DMG", "value": "264%" },
+            { "label": "Lightfall Sword Base DMG", "value": "396.9%" },
+            { "label": "DMG Per Stack", "value": "81.1%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         },
         {
-          "label": "DMG Per Stack",
-          "value": "75%"
+          "level": 3,
+          "skills": [
+            { "label": "Skill DMG", "value": "282%" },
+            { "label": "Lightfall Sword Base DMG", "value": "426.8%" },
+            { "label": "DMG Per Stack", "value": "87.2%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         },
         {
-          "label": "Maximum Stacks",
-          "value": "30"
+          "level": 4,
+          "skills": [
+            { "label": "Skill DMG", "value": "307%" },
+            { "label": "Lightfall Sword Base DMG", "value": "469.5%" },
+            { "label": "DMG Per Stack", "value": "95.9%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         },
         {
-          "label": "CD",
-          "value": "20s"
+          "level": 5,
+          "skills": [
+            { "label": "Skill DMG", "value": "325%" },
+            { "label": "Lightfall Sword Base DMG", "value": "499.4%" },
+            { "label": "DMG Per Stack", "value": "102%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         },
         {
-          "label": "Energy Cost",
-          "value": "80"
+          "level": 6,
+          "skills": [
+            { "label": "Skill DMG", "value": "344%" },
+            { "label": "Lightfall Sword Base DMG", "value": "533.5%" },
+            { "label": "DMG Per Stack", "value": "109%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 7,
+          "skills": [
+            { "label": "Skill DMG", "value": "368%" },
+            { "label": "Lightfall Sword Base DMG", "value": "580.4%" },
+            { "label": "DMG Per Stack", "value": "118.6%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 8,
+          "skills": [
+            { "label": "Skill DMG", "value": "393%" },
+            { "label": "Lightfall Sword Base DMG", "value": "627.4%" },
+            { "label": "DMG Per Stack", "value": "128.2%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 9,
+          "skills": [
+            { "label": "Skill DMG", "value": "418%" },
+            { "label": "Lightfall Sword Base DMG", "value": "674.3%" },
+            { "label": "DMG Per Stack", "value": "137.8%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 10,
+          "skills": [
+            { "label": "Skill DMG", "value": "442%" },
+            { "label": "Lightfall Sword Base DMG", "value": "725.6%" },
+            { "label": "DMG Per Stack", "value": "148.2%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 11,
+          "skills": [
+            { "label": "Skill DMG", "value": "467%" },
+            { "label": "Lightfall Sword Base DMG", "value": "784.2%" },
+            { "label": "DMG Per Stack", "value": "160.2%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "Skill DMG", "value": "491%" },
+            { "label": "Lightfall Sword Base DMG", "value": "853.3%" },
+            { "label": "DMG Per Stack", "value": "174.3%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "Skill DMG", "value": "522%" },
+            { "label": "Lightfall Sword Base DMG", "value": "922.3%" },
+            { "label": "DMG Per Stack", "value": "188.4%" },
+            { "label": "Maximum Stacks", "value": "30" },
+            { "label": "CD", "value": "20s" },
+            { "label": "Energy Cost", "value": "80" }
+          ]
         }
       ],
       "type": "ELEMENTAL_BURST",
