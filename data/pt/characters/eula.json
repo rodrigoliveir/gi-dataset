@@ -1,0 +1,807 @@
+{
+  "character_id": "eula",
+  "vision_key": "CRYO",
+  "weapon_type": "CLAYMORE",
+  "name": "Eula",
+  "rarity": 5,
+  "nation": "Mondstadt",
+  "release": "2021-05-18",
+  "constellation": "Aphros Delos",
+  "birthday": "10-25",
+  "description": "A Cavaleira das Ondas, uma descendente da antiga aristocracia, e a Capitã de Reconhecimento dos Cavaleiros de Favonius. A razão pela qual uma descendente dos antiigos nobres poderia se untar aos Cavaleiros permanece um grande mistério em Mondstadt até os dias de hoje.",
+  "skillTalents": [
+    {
+      "name": "Técnica da Espada de Favonius - Nobreza",
+      "description": "Ataque Normal\nRealiza até 5 golpes consecutivos.\nAtaque Carregado\nDrena Stamina ao longo do tempo para realizar cortes contínuos. Ap final da sequência, realiza um corte ainda mais poderoso.\nAtaque Imersivo\n Merggulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e inflingindo dano em uma AdE durante o impacto.",
+      "upgrades": [
+        {
+          "level": 1,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "89.7%" },
+            { "label": "Dano do 2° Golpe", "value": "93.6%" },
+            { "label": "Dano do 3° Golpe", "value": "56.8% + 56.8%" },
+            { "label": "Dano do 4° Golpe", "value": "112.6%" },
+            { "label": "Dano do 5° Golpe", "value": "71.8% + 71.8%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "68.8%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "124%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "74.6%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "149% / 186%" }
+          ]
+        },
+        {
+          "level": 2,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "97%" },
+            { "label": "Dano do 2° Golpe", "value": "101.2%" },
+            { "label": "Dano do 3° Golpe", "value": "61.4% + 61.4%" },
+            { "label": "Dano do 4° Golpe", "value": "121.8%" },
+            { "label": "Dano do 5° Golpe", "value": "77.7% + 77.7%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "74.4%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "135%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "80.7%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "161% / 201%" }
+          ]
+        },
+        {
+          "level": 3,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "104.3%" },
+            { "label": "Dano do 2° Golpe", "value": "108.8%" },
+            { "label": "Dano do 3° Golpe", "value": "66% + 66%" },
+            { "label": "Dano do 4° Golpe", "value": "131%" },
+            { "label": "Dano do 5° Golpe", "value": "83.5% + 83.5%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "80%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "145%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "86.7%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "173% / 217%" }
+          ]
+        },
+        {
+          "level": 4,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "114.8%" },
+            { "label": "Dano do 2° Golpe", "value": "119.7%" },
+            { "label": "Dano do 3° Golpe", "value": "72.6% + 72.6%" },
+            { "label": "Dano do 4° Golpe", "value": "144.1%" },
+            { "label": "Dano do 5° Golpe", "value": "91.9% + 91.9%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "88%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "159%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "95.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "191% / 238%" }
+          ]
+        },
+        {
+          "level": 5,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "122.1%" },
+            { "label": "Dano do 2° Golpe", "value": "127.3%" },
+            { "label": "Dano do 3° Golpe", "value": "77.3% + 77.3%" },
+            { "label": "Dano do 4° Golpe", "value": "153.2%" },
+            { "label": "Dano do 5° Golpe", "value": "97.7% + 97.7%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "93.6%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "169%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "101.5%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "203% / 253%" }
+          ]
+        },
+        {
+          "level": 6,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "130.4%" },
+            { "label": "Dano do 2° Golpe", "value": "136%" },
+            { "label": "Dano do 3° Golpe", "value": "82.6% + 82.6%" },
+            { "label": "Dano do 4° Golpe", "value": "163.7%" },
+            { "label": "Dano do 5° Golpe", "value": "104.4% + 104.4%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "100%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "181%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "108.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "217% / 271%" }
+          ]
+        },
+        {
+          "level": 7,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "141.9%" },
+            { "label": "Dano do 2° Golpe", "value": "147.9%" },
+            { "label": "Dano do 3° Golpe", "value": "89.8% + 89.8%" },
+            { "label": "Dano do 4° Golpe", "value": "176.7%" },
+            { "label": "Dano do 5° Golpe", "value": "113.6% + 113.6%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "108.8%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "197%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "118%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "236% / 295%" }
+          ]
+        },
+        {
+          "level": 8,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "153.4%" },
+            { "label": "Dano do 2° Golpe", "value": "159.9%" },
+            { "label": "Dano do 3° Golpe", "value": "97.1% + 97.1%" },
+            { "label": "Dano do 4° Golpe", "value": "192.5%" },
+            { "label": "Dano do 5° Golpe", "value": "122.8% + 122.8%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "117.6%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "213%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "127.5%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "255% / 318%" }
+          ]
+        },
+        {
+          "level": 9,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "164.9%" },
+            { "label": "Dano do 2° Golpe", "value": "171.9%" },
+            { "label": "Dano do 3° Golpe", "value": "104.4% + 104.4%" },
+            { "label": "Dano do 4° Golpe", "value": "206.9%" },
+            { "label": "Dano do 5° Golpe", "value": "132% + 132%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "126.4%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "229%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "137%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "274% / 342%" }
+          ]
+        },
+        {
+          "level": 10,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "177.4%" },
+            { "label": "Dano do 2° Golpe", "value": "184.9%" },
+            { "label": "Dano do 3° Golpe", "value": "112.3% + 112.3%" },
+            { "label": "Dano do 4° Golpe", "value": "222.7%" },
+            { "label": "Dano do 5° Golpe", "value": "142% + 142%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "136%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "246%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "147.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "295% / 368%" }
+          ]
+        },
+        {
+          "level": 11,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "191.7%" },
+            { "label": "Dano do 2° Golpe", "value": "199.9%" },
+            { "label": "Dano do 3° Golpe", "value": "121.4% + 121.4%" },
+            { "label": "Dano do 4° Golpe", "value": "240.7%" },
+            { "label": "Dano do 5° Golpe", "value": "153.5% + 153.5%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "147%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "266%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "159.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "319% / 398%" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "208.6%" },
+            { "label": "Dano do 2° Golpe", "value": "217.5%" },
+            { "label": "Dano do 3° Golpe", "value": "132% + 132%" },
+            { "label": "Dano do 4° Golpe", "value": "261.9%" },
+            { "label": "Dano do 5° Golpe", "value": "167% + 167%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "159.8%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "289%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "173.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "347% / 433%" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "Dano do 1° Golpe", "value": "225.5%" },
+            { "label": "Dano do 2° Golpe", "value": "235.1%" },
+            { "label": "Dano do 3° Golpe", "value": "142.7% + 142.7%" },
+            { "label": "Dano do 4° Golpe", "value": "283%" },
+            { "label": "Dano do 5° Golpe", "value": "180.5% + 180.5%" },
+            { "label": "Dano de Loop de Ataque Carregado", "value": "172.9%" },
+            { "label": "Dano Final de Ataque Carregado", "value": "313%" },
+            { "label": "Consumo de Stamina de Ataque Carregado", "value": "40/s" },
+            { "label": "Duração Máxima", "value": "5s" },
+            { "label": "Dano Durante a Queda", "value": "187.4%" },
+            { "label": "Dano de Queda de Baixa/Alta Altitude", "value": "375% / 468%" }
+          ]
+        }
+      ],
+      "type": "NORMAL_ATTACK",
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/normal-attack.webp"
+    },
+    {
+      "name": "Vórtice Gelado",
+      "description": "Um frio glacial e uma dança ágil de espadas.\nPressionar\nFaz um golpe rápido que causa Dano Cryo. Quando acerta nos inimigos, Eula ganha 1 Coração Impassível que se acumula no máximo 2 vezes e só pode ser acumulado 1 vez a cada 0,3s\nCoração Impassivel\nAumenta a Resistência contra Interrupção e DEF de Eula.\nManter Pressionado\nBalança a espada para causar um golpe para a frente, causando Dano Cryo em uma AdE aos inimigos em frente, e consumindo todos os acúmulos de Coração Impassível de Eula.\nCaso o efeito do Coração Impassivel seja consumido, irá diminuir a RES Física e RES Cryo dos inimigos acertados.\nCada Coração Impassivel se converterá em uma Espada do Vórtice de Gelo, causando Dano Cryo nos inimigos ao redor.",
+      "upgrades": [
+        {
+          "level": 1,
+          "skills": [
+            { "label": "Dano de Toque", "value": "146%" },
+            { "label": "Dano ao Manter Pressionado", "value": "246%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "96%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "16%" },
+            { "label": "Diminuição de RES Cryo", "value": "16%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 2,
+          "skills": [
+            { "label": "Dano de Toque", "value": "157%" },
+            { "label": "Dano ao Manter Pressionado", "value": "264%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "103%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "17%" },
+            { "label": "Diminuição de RES Cryo", "value": "17%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 3,
+          "skills": [
+            { "label": "Dano de Toque", "value": "168%" },
+            { "label": "Dano ao Manter Pressionado", "value": "282%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "110%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "18%" },
+            { "label": "Diminuição de RES Cryo", "value": "18%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 4,
+          "skills": [
+            { "label": "Dano de Toque", "value": "183%" },
+            { "label": "Dano ao Manter Pressionado", "value": "307%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "120%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "19%" },
+            { "label": "Diminuição de RES Cryo", "value": "19%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 5,
+          "skills": [
+            { "label": "Dano de Toque", "value": "194%" },
+            { "label": "Dano ao Manter Pressionado", "value": "325%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "127%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "20%" },
+            { "label": "Diminuição de RES Cryo", "value": "20%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 6,
+          "skills": [
+            { "label": "Dano de Toque", "value": "205%" },
+            { "label": "Dano ao Manter Pressionado", "value": "344%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "134%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "21%" },
+            { "label": "Diminuição de RES Cryo", "value": "21%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 7,
+          "skills": [
+            { "label": "Dano de Toque", "value": "220%" },
+            { "label": "Dano ao Manter Pressionado", "value": "368%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "143%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "22%" },
+            { "label": "Diminuição de RES Cryo", "value": "22%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 8,
+          "skills": [
+            { "label": "Dano de Toque", "value": "234%" },
+            { "label": "Dano ao Manter Pressionado", "value": "393%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "154%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "23%" },
+            { "label": "Diminuição de RES Cryo", "value": "23%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 9,
+          "skills": [
+            { "label": "Dano de Toque", "value": "249%" },
+            { "label": "Dano ao Manter Pressionado", "value": "418%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "163%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "24%" },
+            { "label": "Diminuição de RES Cryo", "value": "24%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 10,
+          "skills": [
+            { "label": "Dano de Toque", "value": "264%" },
+            { "label": "Dano ao Manter Pressionado", "value": "442%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "173%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "25%" },
+            { "label": "Diminuição de RES Cryo", "value": "25%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 11,
+          "skills": [
+            { "label": "Dano de Toque", "value": "278%" },
+            { "label": "Dano ao Manter Pressionado", "value": "467%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "182%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "25%" },
+            { "label": "Diminuição de RES Cryo", "value": "25%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "Dano de Toque", "value": "293%" },
+            { "label": "Dano ao Manter Pressionado", "value": "491%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "192%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "25%" },
+            { "label": "Diminuição de RES Cryo", "value": "25%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "Dano de Toque", "value": "311%" },
+            { "label": "Dano ao Manter Pressionado", "value": "522%" },
+            { "label": "Dano da Espada de Vórtice do Gelo", "value": "204%" },
+            { "label": "Aumento de DEF", "value": "30%/piso" },
+            { "label": "Duração do Coração Impassível", "value": "18s" },
+            { "label": "Diminuição de RES Física", "value": "25%" },
+            { "label": "Diminuição de RES Cryo", "value": "25%" },
+            { "label": "Duração de Diminuição de RES", "value": "7s" },
+            { "label": "Recarga ao Pressionar", "value": "4s" },
+            { "label": "Tempo de Recarga ao Manter Pressionado", "value": "10s" }
+          ]
+        }
+      ],
+      "type": "ELEMENTAL_SKILL",
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-skill.webp"
+    },
+    {
+      "name": "Espada das Ondas Congeladas",
+      "description": "Eula brande seu Espadão, causando Dano Cryo a oponentes próximos e criando uma Espada Luminosa que a segue por uma duração de até 7s.\nEnquanto estiver presente, a Espada Luminosa aumenta a Resistência COnta Interrupção de Eula. Quando os Ataques NOmrias, Habilidades Elementais e Supremos de Eula causam Dano aos inimigos, eles carregarão a Espada Luminosa, que pode ganhar uma carga de energia a cada 0.1s.\nQuando sua duração encerrar, a Espada Luminosa cairá e explodirá, causando Dano Físico a inimigos próximos.\nEsse Dano escala baseado no número de cargas de energia que a Espada Luminosa acumulou.\nSe Eula sair de campo, a Espada Luminosa esplodirá imediatamente.",
+      "upgrades": [
+        {
+          "level": 1,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "246%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "367%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "75%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 2,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "264%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "396.9%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "81.1%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 3,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "282%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "426.8%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "87.2%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 4,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "307%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "469.5%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "95.9%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 5,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "325%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "499.4%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "102%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 6,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "344%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "533.5%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "109%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 7,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "368%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "580.4%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "118.6%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 8,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "393%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "627.4%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "128.2%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 9,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "418%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "674.3%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "137.8%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 10,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "442%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "725.6%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "148.2%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 11,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "467%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "784.2%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "160.2%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 12,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "491%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "853.3%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "174.3%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        },
+        {
+          "level": 13,
+          "skills": [
+            { "label": "Dano de Habilidade", "value": "522%" },
+            { "label": "Dano Básico da Espada Luminosa", "value": "922.3%" },
+            { "label": "Dano de Energia de Cada Piso", "value": "188.4%" },
+            { "label": "Limite de Recargas de Energia", "value": "30" },
+            { "label": "Tempo de Recarga", "value": "20s" },
+            { "label": "Energia Elemental", "value": "80" }
+          ]
+        }
+      ],
+      "type": "ELEMENTAL_BURST",
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-burst.webp"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Geada Turbulenta",
+      "description": "Se quando você mantiver pressionado para liberar o Vórtice Gelado e consumir 2 acúmulos de Corações Impassíveis de uma vez, criará uma Espada Luminosa fragmentada que explodirá imediatamente, causando Dano Físico em quantidade equivalente a 50% do Dano Básico da Espada Luminosa da Espada das Ondas Congelantes.",
+      "ascension_level": 1,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-1.webp"
+    },
+    {
+      "name": "Desejo de Lutar",
+      "description": "Quando a Espada das Ondas Congeladas é lançada, a Recarga do Vótice Gelado é redefinida e Eula ganha 1 acúmulo de Coração Impassível.",
+      "ascension_level": 4,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-2.webp"
+    },
+    {
+      "name": "Introspecção Aristocrática",
+      "description": "Quando sintetiza Materiais para aprimoramento de Talento do Personagem, tem uma chance de 10% de obter o dobro de Produção.",
+      "ascension_level": 0,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-3.webp"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Ilusão da Maré de Luz",
+      "description": "Após consumir o efeito de Coração Impassível de Vórtice Gelado, o Dano Adicional do Dano Fìsico de Eula aumenta em 30% por 6s.\nSempre que consumir uma carga de Coração Impassível essa duração de efeito prolongará 6s, no máximo não pode exceder os 18s.",
+      "level": 1,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-1.webp"
+    },
+    {
+      "name": "Garota da Espuma do Mar",
+      "description": "Diminui o tempo de recarga ao manter pressionado Vórtice Gelado, tornando esse tempo igual ao tempo de recarga de pressionar.",
+      "level": 2,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-2.webp"
+    },
+    {
+      "name": "Sangue de Lawrence",
+      "description": "Aumenta o nível da Habilidade Espada das Ondas COngeladas em 3. O nível máximo de aumento é 15.",
+      "level": 3,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-3.webp"
+    },
+    {
+      "name": "A Obstinação da Sensação de Inferioridade",
+      "description": "A Espada Luminosa tem um aumento de 25% de Dano contra inimigos com menos de 50% de Vida.",
+      "level": 4,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-4.webp"
+    },
+    {
+      "name": "Qualidade de Cavaleira",
+      "description": "Aumenta o nível da Habilidade Vórtice Gelado em 3. O nível máximo de aumento é 15.",
+      "level": 5,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-5.webp"
+    },
+    {
+      "name": "Obrigações Aristocráticas",
+      "description": "A Espada Luminosa criada pela Espada das Ondas Congeladas faz obter imediatamente 5 acúmulos de Energia. Quando os Ataques Normais, Habilidades Elementais ou Supremos causam Dano, seus acúmulos tem uma chance de 50% de oter um acúmulo de Energia adicional.",
+      "level": 6,
+      "image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-6.webp"
+    }
+  ],
+  "ascension_materials": [
+    [
+      {
+        "name": "Lasca de Jade Shivada",
+        "value": 1,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-sliver.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 3,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Danificada",
+        "value": 3,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 20000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ],
+    [
+      {
+        "name": "Fragmento de Jade Shivada",
+        "value": 3,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-fragment.webp"
+      },
+      {
+        "name": "Florescimento Cristalino",
+        "value": 2,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 10,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Danificada",
+        "value": 15,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 40000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ],
+    [
+      {
+        "name": "Fragmento de Jade Shivada",
+        "value": 6,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-fragment.webp"
+      },
+      {
+        "name": "Florescimento Cristalino",
+        "value": 4,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 20,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Suja",
+        "value": 12,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 60000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ],
+    [
+      {
+        "name": "Pedaço de Jade Shivada",
+        "value": 3,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-chunk.webp"
+      },
+      {
+        "name": "Florescimento Cristalino",
+        "value": 8,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 30,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Suja",
+        "value": 18,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 80000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ],
+    [
+      {
+        "name": "Pedaço de Jade Shivada",
+        "value": 6,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-chunk.webp"
+      },
+      {
+        "name": "Florescimento Cristalino",
+        "value": 12,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 45,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Ominosa",
+        "value": 12,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 100000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ],
+    [
+      {
+        "name": "Shivada Jade Gemstone",
+        "value": 6,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-gemstone.webp"
+      },
+      {
+        "name": "Florescimento Cristalino",
+        "value": 20,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+      },
+      {
+        "name": "Sementes de Dandelion",
+        "value": 60,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+      },
+      {
+        "name": "Máscara Ominosa",
+        "value": 24,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp"
+      },
+      {
+        "name": "Mora",
+        "value": 120000,
+        "image": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+      }
+    ]
+  ],
+  "images": {
+    "pfp_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-pfp.webp",
+    "splash_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-splash.webp",
+    "sideicon_image": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-side-icon.webp",
+    "constellation": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-constellation.webp"
+  }
+}

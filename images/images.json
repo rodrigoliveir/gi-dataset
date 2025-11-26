@@ -1,0 +1,80 @@
+{
+  "characters": {
+    "eula": {
+      "constellation-1": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-1.webp",
+      "constellation-2": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-2.webp",
+      "constellation-3": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-3.webp",
+      "constellation-4": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-4.webp",
+      "constellation-5": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-5.webp",
+      "constellation-6": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/constellation-6.webp",
+      "elemental-burst": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-burst.webp",
+      "elemental-skill": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/elemental-skill.webp",
+      "eula-constellation": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-constellation.webp",
+      "eula-pfp": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-pfp.webp",
+      "eula-side-icon": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-side-icon.webp",
+      "eula-splash": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/eula-splash.webp",
+      "normal-attack": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/normal-attack.webp",
+      "passive-1": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-1.webp",
+      "passive-2": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-2.webp",
+      "passive-3": "https://rodrigoliveir.github.io/gi-dataset/images/characters/eula/passive-3.webp"
+    },
+    "mavuika": {}
+  },
+  "icons": {
+    "elements": {},
+    "ui": {
+      "character-icon": "https://rodrigoliveir.github.io/gi-dataset/images/icons/ui/character-icon.webp",
+      "wish-icon": "https://rodrigoliveir.github.io/gi-dataset/images/icons/ui/wish-icon.webp"
+    },
+    "weapons": {}
+  },
+  "items": {
+    "ascension": {
+      "character": {
+        "horn": {
+          "black-bronze-horn": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-bronze-horn.webp",
+          "black-crystal-horn": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/black-crystal-horn.webp",
+          "heavy-horn": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/horn/heavy-horn.webp"
+        },
+        "mask": {
+          "damaged-mask": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/damaged-mask.webp",
+          "ominous-mask": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/ominous-mask.webp",
+          "stained-mask": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/mask/stained-mask.webp"
+        },
+        "shivada-jade": {
+          "shivada-jade-chunk": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-chunk.webp",
+          "shivada-jade-fragment": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-fragment.webp",
+          "shivada-jade-gemstone": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-gemstone.webp",
+          "shivada-jade-sliver": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/character/shivada-jade/shivada-jade-sliver.webp"
+        }
+      },
+      "weapon": {
+        "decarabian": {
+          "debris-of-decarabians-city": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/debris-of-decarabians-city.webp",
+          "fragment-of-decarabians-epic": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/fragment-of-decarabians-epic.webp",
+          "scattered-piece-of-decarabians-dream": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/scattered-piece-of-decarabians-dream.webp",
+          "tile-of-decarabians-tower": "https://rodrigoliveir.github.io/gi-dataset/images/items/ascension/weapon/decarabian/tile-of-decarabians-tower.webp"
+        },
+        "guyun": {}
+      }
+    },
+    "boss-drops": {
+      "crystalline-bloom": "https://rodrigoliveir.github.io/gi-dataset/images/items/boss-drops/crystalline-bloom.webp"
+    },
+    "currency": {
+      "mora": "https://rodrigoliveir.github.io/gi-dataset/images/items/currency/mora.webp"
+    },
+    "local": {
+      "dandelion-seed": "https://rodrigoliveir.github.io/gi-dataset/images/items/local/dandelion-seed.webp"
+    }
+  },
+  "weapons": {
+    "bow": {},
+    "catalyst": {},
+    "claymore": {
+      "song-of-broken-pines": "https://rodrigoliveir.github.io/gi-dataset/images/weapons/claymore/song-of-broken-pines.webp"
+    },
+    "polearm": {},
+    "sword": {}
+  }
+}

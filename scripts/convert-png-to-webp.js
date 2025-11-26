@@ -1,4 +1,6 @@
-// convert-all-to-webp.js
+/**
+ * Converts all .png files located at images/ to .webp files.
+ */
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -7,11 +9,11 @@ import imageminWebp from "imagemin-webp";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const baseDir = path.join(__dirname, "images");
+const baseDir = path.join(__dirname, ".././images");
 const quality = 100;
 
 /**
- * Encontra recursivamente todos os arquivos .png em um diretório
+ * Finds recursively all .png files from a directory.
  * @param {string} dir
  * @returns {string[]} caminhos absolutos
  */

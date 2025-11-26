@@ -4,20 +4,25 @@
   "type": "object",
 
   "$defs": {
-    "upgrade": {
+    "talent_level": {
       "type": "object",
       "properties": {
         "label": { "type": "string" },
         "value": { "type": "string" }
       },
       "required": ["label", "value"],
-      "minProperties": 2,
       "additionalProperties": false
+    },
+    "upgrade": {
+      "type": "object",
+      "properties": {
+        "level": { "type": "integer", "enum": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] },
+        "skills": { "type": "array", "items": { "$ref": "#/$defs/talent_level" } }
+      }
     },
     "upgrades": {
       "type": "array",
-      "items": { "$ref": "#/$defs/upgrade" },
-      "minItems": 1
+      "items": { "$ref": "#/$defs/upgrade" }
     },
     "skillTalent": {
       "type": "object",
@@ -83,7 +88,7 @@
       "required": ["name", "value", "image"],
       "additionalProperties": false
     },
-    "level": {
+    "character_level": {
       "type": "array",
       "items": { "$ref": "#/$defs/ascension_material" },
       "minItems": 4,
@@ -91,7 +96,7 @@
     },
     "ascension_materials": {
       "type": "array",
-      "items": { "$ref": "#/$defs/level" },
+      "items": { "$ref": "#/$defs/character_level" },
       "minItems": 6,
       "maxItems": 6
     }

@@ -39,9 +39,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,json,md}'",
-    "convert:webp": "node convert-png-to-webp.js",
-    "validate:characters": "node validate-characters.js",
-    "validate": "npm run validate:all"
+    "convert:webp": "node scripts/convert-png-to-webp.js",
+    "build:images-object": "node scripts/generate-images-object.js",
+    "spread:images": "node scripts/spread-images-urls.js",
+    "validate:characters": "node validations/validate-characters.js",
+    "validate:weapons": "node validations/validate-weapons.js"
   },
   "keywords": [],
   "author": "",
