@@ -1,5 +1,14 @@
 /**
- * Converts all .png files located at images/ to .webp files.
+ * Convert PNG images under `images/` to WebP format.
+ *
+ * This script recursively finds `.png` files in the `images/` directory,
+ * converts each to `.webp` using `imagemin` + `imagemin-webp` and removes the
+ * original `.png` on successful conversion. It logs progress and warnings to
+ * stdout/stderr and exits with a non-zero code if the base images directory is
+ * missing or an uncaught error happens.
+ *
+ * Usage:
+ *   node scripts/convert-png-to-webp.js
  */
 import fs from "fs";
 import path from "path";
@@ -13,9 +22,10 @@ const baseDir = path.join(__dirname, ".././images");
 const quality = 100;
 
 /**
- * Finds recursively all .png files from a directory.
- * @param {string} dir
- * @returns {string[]} caminhos absolutos
+ * Recursively find all `.png` files in `dir`.
+ *
+ * @param {string} dir - Directory to search.
+ * @returns {string[]} Array of absolute file paths to `.png` files.
  */
 const findPngFiles = (dir) => {
   let results = [];
@@ -32,14 +42,27 @@ const findPngFiles = (dir) => {
   return results;
 };
 
+/**
+ * Convert every `.png` found under `baseDir` to `.webp` and delete the
+ * original `.png` when conversion succeeds.
+ *
+ * Behaviour:
+ *  - Validates `baseDir` exists.
+ *  - Finds all `.png` files using `findPngFiles`.
+ *  - Converts each file with `imagemin-webp` using the configured `quality`.
+ *  - If the `.webp` is generated, logs success and removes the original PNG.
+ *  - On conversion failure logs an error and continues with remaining files.
+ *
+ * @returns {Promise<void>} Resolves when processing is complete.
+ */
 const convertAllPngToWebp = async () => {
   if (!fs.existsSync(baseDir)) {
-    console.error(`Diretório base não encontrado: ${baseDir}`);
+    console.error(`\x1b[31mBase directory not found: ${baseDir}\x1b[0m`);
     process.exit(1);
   }
 
   const pngFiles = findPngFiles(baseDir);
-  console.log(`🔍 Encontrados ${pngFiles.length} arquivos .png em ${baseDir}`);
+  console.warn(`\x1b[33mWARN\x1b[0m\n  ${pngFiles.length} files .png finded in ${baseDir}`);
 
   for (const pngPath of pngFiles) {
     const dir = path.dirname(pngPath);
@@ -53,21 +76,22 @@ const convertAllPngToWebp = async () => {
       });
 
       if (results && results.length > 0 && fs.existsSync(webpPath)) {
-        console.log(`✅ Convertido: ${path.relative(baseDir, webpPath)}`);
+        console.log(`\x1b[32m✔\x1b[0m Converted: ${path.relative(baseDir, webpPath)}`);
         fs.unlinkSync(pngPath);
-        console.log(`🗑️  Removido original: ${path.relative(baseDir, pngPath)}`);
       } else {
         console.warn(
-          `⚠️ Conversão não gerou arquivo webp para: ${path.relative(baseDir, pngPath)}`
+          `\x1b[33mWARN\x1b[0m\n  Conversion didn't generate webp file for: ${path.relative(baseDir, pngPath)}`
         );
       }
     } catch (err) {
-      console.error(`❌ Erro ao converter ${path.relative(baseDir, pngPath)}: ${err.message}`);
+      console.error(
+        `\x1b[31m✖\x1b[0m Error on convert ${path.relative(baseDir, pngPath)}: \x1b[31m${err.message}\x1b[0m`
+      );
     }
   }
 };
 
 convertAllPngToWebp().catch((err) => {
-  console.error("Erro fatal:", err);
+  console.error(`\x1b[31mFatal error: ${err}\x1b[0m`);
   process.exit(1);
 });
